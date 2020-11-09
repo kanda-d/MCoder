@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#4587d2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-42dp"
+        android:text="Best IDE for Code"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run any Type of Code in Emulator"
+        android:textAlignment="center"
+        android:textColor="#DCDCDC"
+        android:textSize="12dp"
+        />
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/welcome_run3" />
+
+
+
+
+    <TextView
+        android:layout_marginHorizontal="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:textColor="#F8F8F8"
+        android:lineHeight="18dp"
+        android:textSize="12dp"
+        android:text="With Touch Coder you can both learn and code at the same time. While you play on codes any time for any code part you can use Info option which means built-in informations, that will let you to reach a definition,a special note and a sample use of a HTML tag or a CSS property."/>
+
+
+
+</LinearLayout>

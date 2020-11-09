@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#C8303030">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="#222"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:id="@+id/ImageThumb"/>
+
+        <LinearLayout
+            android:id="@+id/lin"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="73dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/run" />
+
+
+
+                <TextView
+                    android:id="@+id/txtId"
+                    android:layout_height="0dp"
+                    android:layout_width="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/lin"
+            android:layout_marginTop="40dp"
+            android:weightSum="2"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_weight="1"
+                android:src="@drawable/yt_icon"
+                android:layout_marginTop="20dp"
+                android:layout_width="70dp"
+                android:layout_height="60dp" />
+
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="0dp"
+                android:text="Video Title"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

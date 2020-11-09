@@ -1,0 +1,124 @@
+
+<RelativeLayout
+    android:elevation="1dp"
+    android:orientation="vertical"
+    android:gravity="center|center_vertical|center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_bg"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    tools:ignore="MissingConstraints"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/airoupdate" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:weightSum="2"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:textColor="#202020"
+                        android:layout_weight="1"
+                        android:text="ABOUT UPDATE"
+                        android:textSize="13dp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/versionCode"
+                        android:textColor="#E53935"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:text="V2.3.6"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginHorizontal="25dp"
+                    android:textColor="#5E5E5E"
+                    android:textSize="12dp"
+                    android:lineSpacingExtra="11dp"
+                    android:layout_marginVertical="4dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="1. Fix some terrible bugs. \n2. New Navigation Interaction"
+                    android:id="@+id/textUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <Button
+                android:id="@+id/updateButton"
+                android:layout_marginHorizontal="50dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/btn_bg"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:text="Update MCoder"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

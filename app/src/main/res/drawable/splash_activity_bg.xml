@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <item>
+         <shape>
+             <solid android:color="#004779"></solid>
+          </shape>
+     </item>
+    <item>
+        <clip  android:src="@drawable/startgif" android:gravity="center"/>
+    </item>
+</layer-list>

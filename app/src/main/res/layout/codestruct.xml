@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4A4A4A"
+    android:orientation="vertical"
+    android:paddingBottom="8dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="Code Snippes ! "/>
+    <LinearLayout
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="14dp"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="14dp"
+            android:id="@+id/htmlAdd"
+            android:textStyle="bold"
+            android:text="&#60;HTML&#62;"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="#FF005D"
+            android:padding="10dp"
+            android:background="@drawable/border"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="14dp"
+            android:id="@+id/cssAdd"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:background="@drawable/border"
+            android:layout_marginHorizontal="10dp"
+            android:text=" { CSS }"
+            android:textColor="#EFFF4D"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="14dp"
+            android:id="@+id/jsAdd"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:background="@drawable/border"
+            android:text="&#60;Script&#62;"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="#49C3FF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="40dp"
+        android:layout_marginHorizontal="14dp"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="14dp"
+            android:id="@+id/jqAdd"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="10dp"
+            android:padding="10dp"
+            android:textColor="#FFB300"
+            android:background="@drawable/border"
+            android:text="&#60;Jquery&#62;"
+            android:textAlignment="center"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="12dp"
+            android:id="@+id/bootAdd"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="10dp"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/border"
+            android:text="&#60;BootStrap&#62;"
+            android:textAlignment="center"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/phpAdd"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:background="@drawable/border"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="10dp"
+            android:text="&#60;? php ?&#62;"
+            android:textColor="#00F40B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

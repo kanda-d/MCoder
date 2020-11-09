@@ -1,0 +1,2 @@
+rootProject.name='HTML CSS Compiler'
+include ':app'

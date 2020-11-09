@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#222222</color>
+
+    <color name="codeBackground">#222222</color>
+    <color name="numcodeBackground">#4E4E4E</color>
+
+    <color name="colorAccent">#FFD1004C</color>
+    <color name="symbols">#FFF8F8F2</color>
+
+    <color name="strip">#6E6E6E</color>
+    <color name="trans">#00FFFFFF</color>
+    <color name="checking">#45A8FF</color>
+    <color name="splash">#004779</color>
+    <color name="greenColor">#12DD1B</color>
+    <color name="whiteColor">#FCFFFD</color>
+</resources>

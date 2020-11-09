@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4222222"
+    tools:context=".Youtube.DetailsActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/title_layout"
+        android:background="#ED1F1F1F"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:lineSpacingExtra="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Youtube Video Title "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:onClick="toggle_contents"
+            android:src="@drawable/down"
+            android:layout_gravity="end"
+            android:layout_marginTop="-36dp"
+            android:id="@+id/expand"
+            android:layout_width="60dp"
+            android:layout_height="30dp" />
+
+
+
+    </LinearLayout>
+    <!--real image size is 40x50px-->
+
+
+    <LinearLayout
+        android:id="@+id/icons"
+        android:layout_below="@+id/title_layout"
+        android:layout_marginTop="0dp"
+        android:weightSum="3"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:onClick="like_press"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:id="@+id/fav"
+                android:src="@drawable/favroit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:text="Like"
+                android:textAlignment="center"
+                android:textColor="#E9E9E9"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:onClick="downloadNow"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:src="@drawable/runcode" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="205k"
+                android:textAlignment="center"
+                android:textColor="#E9E9E9"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:onClick="share_btn_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:src="@drawable/share" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Share"
+                android:textAlignment="center"
+                android:textColor="#E9E9E9"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/txt"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/icons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView  android:id="@+id/help_title_gest"
+            android:text="Published on Jul 25, 2019"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:clickable="true"
+            android:onClick="toggle_contents"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+        <!--content to hide/show -->
+        <TextView
+            android:layout_gravity="left"
+            android:textAlignment="inherit"
+            android:id="@+id/txt_help_gest"
+            android:textSize="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/divider"
+            android:layout_marginTop="10dp"
+            android:outlineAmbientShadowColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#A8A8A8" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>
